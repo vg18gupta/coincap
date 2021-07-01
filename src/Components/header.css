@@ -1,0 +1,87 @@
+.headerContainer {
+  display: flex;
+  padding: 20px 0;
+  justify-content: center;
+  flex: 1;
+}
+.contentSection a {
+  color: black;
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+.contentSection a:hover {
+  color: black;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.contentext {
+  margin: 10px;
+}
+.buttonClass {
+  height: 36px;
+  width: 140px;
+}
+.contentSection {
+  display: flex;
+  flex: 0.33;
+}
+.imageContainer {
+  flex: 0.33;
+  text-align: center;
+}
+.Button {
+  height: 36px;
+  width: 140px;
+  flex: 0.33;
+  display: flex;
+  justify-content: flex-end;
+}
+.hamberger {
+  display: none;
+}
+.SearchSection {
+  display: none;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .headerContainer {
+    width: 933px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .headerContainer {
+    width: 723px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .headerContainer {
+    width: 1127px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .hide-content {
+    display: none;
+  }
+  .headerContainer {
+    justify-content: space-around;
+  }
+  .Button {
+    display: none;
+  }
+  .hamberger {
+    height: 20px;
+    display: block;
+    margin-left: 20px;
+  }
+  .SearchSection {
+    display: block;
+  }
+}

@@ -1,0 +1,21 @@
+.humbergerModal {
+  width: 200px;
+  position: fixed;
+  top: 0;
+  z-index: 102;
+  height: 100vh;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 20px rgb(34 36 38 / 15%);
+}
+.humbergerContent {
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.ButtonContent {
+  height: 36px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

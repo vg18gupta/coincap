@@ -1,0 +1,105 @@
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .tableContainer {
+    width: 933px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .ui.container {
+    width: 723px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .tableContainer {
+    width: 1127px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .tableContainer table {
+    width: 360px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .NameTd {
+    width: 160px;
+  }
+}
+@media (max-width: 768px) {
+  .xs-hidden {
+    display: none !important;
+  }
+}
+.tableContainer {
+  margin-top: -10em;
+}
+.tableContainer table {
+  width: 100%;
+  background: #fff;
+  margin: 1em 0;
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0.28571429rem;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.87);
+  border-collapse: separate;
+  border-spacing: 0;
+  white-space: nowrap;
+}
+tr th {
+  border-bottom: 1px solid rgba(34, 36, 38, 0.1);
+  background-color: #fafafa;
+  padding: 1em 0.8em;
+  font-size: 0.9rem;
+  font-weight: 500 !important;
+  color: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+th:hover {
+  color: rgba(0, 0, 0, 1);
+}
+tr td {
+  border-bottom: 1px solid rgba(34, 36, 38, 0.1);
+  /* background-color: #fafafa; */
+  padding: 1em 0.8em;
+  font-size: 0.9rem;
+  font-weight: 400 !important;
+  color: rgba(0, 0, 0, 1);
+  cursor: pointer;
+}
+.NameTd {
+  display: flex;
+  align-items: center;
+}
+.NameTd img {
+  margin-right: 10px;
+}
+.NameTd .contentText {
+  display: block;
+}
+.symbol {
+  font-size: 0.8em;
+  opacity: 0.7;
+}
+.NameTd .contentText p {
+  margin: 0;
+}
+.center-aligned {
+  text-align: center;
+}
+.right-aligned {
+  text-align: right;
+}
+.ButtonClass {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
